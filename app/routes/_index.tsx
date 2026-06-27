@@ -1,0 +1,9 @@
+import { redirect } from "react-router";
+
+export async function loader() {
+  return redirect("/app/dashboard");
+}
+
+export default function IndexPage() {
+  return null;
+}
