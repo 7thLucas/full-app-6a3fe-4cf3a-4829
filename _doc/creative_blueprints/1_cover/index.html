@@ -1,0 +1,49 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 52%; }
+  .mode-landscape .sl-right { width: 48%; }
+  .mode-portrait .sl-left { width: 100%; padding-bottom: 1.5rem; }
+  .mode-portrait .sl-right { width: 100%; flex: 1; min-height: 0; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+
+    <!-- Left: content column -->
+    <div class="sl-left flex flex-col justify-between p-12">
+      <!-- Badge -->
+      <div>
+        <span class="inline-block text-xs font-bold tracking-widest text-indigo-600 uppercase border border-indigo-200 rounded-full px-4 py-1.5">
+          Social Automation Platform
+        </span>
+      </div>
+
+      <!-- Headline + tagline -->
+      <div>
+        <h1 class="text-5xl font-black text-slate-900 leading-none tracking-tight mb-6">
+          Your Store.<br/>Everywhere.<br/>Every&nbsp;Day.
+        </h1>
+        <p class="text-base text-slate-500 leading-relaxed max-w-xs">
+          Upload your products once. Connect your platforms. Set a time.<br/>
+          Your store promotes itself — automatically, on every platform, forever.
+        </p>
+      </div>
+
+      <!-- Attribution -->
+      <div>
+        <data-attribution />
+      </div>
+    </div>
+
+    <!-- Right: hero image -->
+    <div class="sl-right relative overflow-hidden bg-indigo-50">
+      <img
+        src="https://api.qb-deck.quantumbyte.ai/common/image-generation?prompt=premium+isometric+illustration+of+a+glowing+digital+product+store+catalog+with+product+cards+radiating+outward+as+floating+social+media+icons+Instagram+TikTok+Facebook+Pinterest+LinkedIn+Twitter%2C+indigo+and+violet+gradient+accents%2C+clean+white+background%2C+modern+tech+editorial+art"
+        alt="Store products broadcasting to social platforms"
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-y-0 left-0 w-20 bg-gradient-to-r from-white to-transparent pointer-events-none"></div>
+    </div>
+
+  </div>
+</section>
