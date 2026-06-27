@@ -1,0 +1,84 @@
+<style>
+  .mode-landscape .sl-grid { grid-template-columns: repeat(3, 1fr); }
+  .mode-portrait .sl-grid { grid-template-columns: repeat(2, 1fr); }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="p-10 h-full flex flex-col gap-5">
+
+    <!-- Header + persona chips -->
+    <div class="flex items-end justify-between">
+      <div>
+        <span class="text-xs font-bold tracking-widest text-indigo-600 uppercase">What It Does</span>
+        <h2 class="text-2xl font-bold text-slate-900 mt-1">Core Features</h2>
+      </div>
+      <div class="flex gap-2 items-center">
+        <span class="inline-flex items-center gap-2 bg-indigo-600 text-white text-xs font-semibold px-4 py-2 rounded-full">
+          <span class="w-2 h-2 rounded-full bg-indigo-300"></span>
+          Store Owner
+        </span>
+        <span class="inline-flex items-center gap-2 bg-slate-100 text-slate-500 text-xs font-semibold px-4 py-2 rounded-full">
+          Digital Creator
+        </span>
+      </div>
+    </div>
+
+    <!-- Feature grid -->
+    <div class="sl-grid grid gap-4 flex-1 min-h-0">
+
+      <!-- 1. Product Catalog -->
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center text-lg">📦</div>
+        <div>
+          <p class="text-sm font-bold text-slate-800 mb-1">Product Catalog</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Add products with images, descriptions, prices, and purchase links — all in one place.</p>
+        </div>
+      </div>
+
+      <!-- 2. Platform Connections -->
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center text-lg">🔗</div>
+        <div>
+          <p class="text-sm font-bold text-slate-800 mb-1">Platform Connections</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Connect Instagram, Facebook, Twitter/X, TikTok, Pinterest, and LinkedIn via secure OAuth.</p>
+        </div>
+      </div>
+
+      <!-- 3. Rotation Scheduler -->
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center text-lg">🔄</div>
+        <div>
+          <p class="text-sm font-bold text-slate-800 mb-1">Rotation Scheduler</p>
+          <p class="text-xs text-slate-500 leading-relaxed">Pick a daily posting time — the app queues products in rotation and fires automatically.</p>
+        </div>
+      </div>
+
+      <!-- 4. Auto Publishing — highlighted -->
+      <div class="bg-indigo-600 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-500 flex items-center justify-center text-lg">⚡</div>
+        <div>
+          <p class="text-sm font-bold text-white mb-1">Auto Publishing</p>
+          <p class="text-xs text-indigo-200 leading-relaxed">Posts go live at your scheduled time, every day, with zero manual effort — on every connected platform.</p>
+        </div>
+      </div>
+
+      <!-- 5. Post Preview -->
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center text-lg">👁</div>
+        <div>
+          <p class="text-sm font-bold text-slate-800 mb-1">Post Preview</p>
+          <p class="text-xs text-slate-500 leading-relaxed">See how the caption and image will look before any post publishes — no surprises.</p>
+        </div>
+      </div>
+
+      <!-- 6. Posting History -->
+      <div class="bg-slate-50 border border-slate-100 rounded-xl p-5 flex flex-col gap-3">
+        <div class="w-9 h-9 rounded-lg bg-indigo-100 flex items-center justify-center text-lg">📋</div>
+        <div>
+          <p class="text-sm font-bold text-slate-800 mb-1">Posting History</p>
+          <p class="text-xs text-slate-500 leading-relaxed">A full log of every post: product promoted, platform, timestamp, and delivery status.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
