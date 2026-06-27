@@ -1,0 +1,1 @@
+I want an app that can post my store products and store on rotation to all social media platforms everyday at a give time. I want to have a automated set it and forget it system. That can promote my store and digital products across all social media platforms
