@@ -1,0 +1,85 @@
+<style>
+  .mode-landscape .sl-split { flex-direction: row; }
+  .mode-portrait .sl-split { flex-direction: column; }
+  .mode-landscape .sl-problem { width: 50%; }
+  .mode-landscape .sl-solution { width: 50%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="p-10 h-full flex flex-col gap-5">
+
+    <!-- Header -->
+    <div>
+      <span class="text-xs font-bold tracking-widest text-indigo-600 uppercase">The Challenge &amp; The Fix</span>
+      <h2 class="text-2xl font-bold text-slate-900 mt-1">Why This Exists</h2>
+    </div>
+
+    <!-- Split cards -->
+    <div class="sl-split flex gap-5 flex-1 min-h-0">
+
+      <!-- Problem card -->
+      <div class="sl-problem">
+        <div class="bg-slate-900 rounded-2xl p-8 h-full flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-5">
+              <span class="w-6 h-6 rounded-full bg-red-500 flex items-center justify-center text-white text-xs font-black">✕</span>
+              <span class="text-xs font-bold tracking-widest text-slate-400 uppercase">The Problem</span>
+            </div>
+            <h3 class="text-xl font-bold text-white leading-snug mb-4">
+              Manual posting is a daily grind you can't sustain
+            </h3>
+            <p class="text-slate-400 text-sm leading-relaxed">
+              Posting to Instagram, TikTok, Facebook, Pinterest, LinkedIn, and Twitter every single day takes 30–60 minutes. Most store owners quit within weeks — and inconsistent posting tanks algorithmic reach.
+            </p>
+          </div>
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start gap-3 text-sm text-slate-300">
+              <span class="text-red-400 mt-0.5 shrink-0">→</span>
+              Hours lost to repetitive daily posting tasks
+            </li>
+            <li class="flex items-start gap-3 text-sm text-slate-300">
+              <span class="text-red-400 mt-0.5 shrink-0">→</span>
+              Missed days suppress platform reach and visibility
+            </li>
+            <li class="flex items-start gap-3 text-sm text-slate-300">
+              <span class="text-red-400 mt-0.5 shrink-0">→</span>
+              Products go unpromoted for days or weeks at a time
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Solution card -->
+      <div class="sl-solution">
+        <div class="bg-indigo-600 rounded-2xl p-8 h-full flex flex-col justify-between">
+          <div>
+            <div class="flex items-center gap-2 mb-5">
+              <span class="w-6 h-6 rounded-full bg-indigo-400 flex items-center justify-center text-white text-xs font-black">✓</span>
+              <span class="text-xs font-bold tracking-widest text-indigo-200 uppercase">The Solution</span>
+            </div>
+            <h3 class="text-xl font-bold text-white leading-snug mb-4">
+              Set it once. Your store promotes itself forever.
+            </h3>
+            <p class="text-indigo-100 text-sm leading-relaxed">
+              Upload your catalog, connect your social accounts, pick a daily time. The app rotates through your products and publishes automatically — on time, every time, to every platform.
+            </p>
+          </div>
+          <ul class="mt-6 space-y-3">
+            <li class="flex items-start gap-3 text-sm text-indigo-100">
+              <span class="text-indigo-300 mt-0.5 shrink-0">→</span>
+              One-time setup produces perpetual daily output
+            </li>
+            <li class="flex items-start gap-3 text-sm text-indigo-100">
+              <span class="text-indigo-300 mt-0.5 shrink-0">→</span>
+              Every product gets promoted, automatically on rotation
+            </li>
+            <li class="flex items-start gap-3 text-sm text-indigo-100">
+              <span class="text-indigo-300 mt-0.5 shrink-0">→</span>
+              6 major platforms covered from a single dashboard
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
