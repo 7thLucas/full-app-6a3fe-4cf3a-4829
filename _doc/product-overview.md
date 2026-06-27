@@ -1,5 +1,8 @@
 # Product Overview
 
+## Product Name
+**PostPilot**
+
 ## What It Is
 An automated social media scheduling and product-promotion app for store owners. Users upload their product catalog, connect their social media accounts, and set a daily posting time — the app then rotates through the products and publishes to every connected platform automatically, every day, without further manual input. A true "set it and forget it" promotional engine.
 
